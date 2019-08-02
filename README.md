@@ -38,6 +38,6 @@ You also can submit tasks by your phone with `firefox` and `Tampermonkey`.
 
 ## Donation 
 
-#### Donate first then email to me ask for gee_monkey (kongdd.sysu at gmail.com)
+* Donate first then email to me ask for gee_monkey (kongdd.sysu at gmail.com)
 
 ![pay](image/pay_kongdd_70.png)
