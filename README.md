@@ -9,22 +9,31 @@ Batch export Google Earth Engine (GEE) tasks with `Tampermonkey`.
 __Tampermonkey can solve those problems!__
 
 ## Functions
-- **rALL** : batch run all tasks
+
+![](image/gee_monkey_ui.png)
+
+- **rAll** : batch run all tasks
+- **rInv** : batch run all tasks in inverse order
 - **cALL** : cancel all tasks
-- **cSUB** : only cancel `submitted-to-backend` tasks, and leave `running-on-backend` tasks to be continue
+- **cSub** : only cancel `submitted-to-backend` tasks, and leave `running-on-backend` tasks 
+- **ntask**: How many tasks to export? If not specified, it is all tasks.
+
+to be continue
 
 **Tasks submitted to GEE have two kinds:**   
+
 1. `task submitted-to-backend`: just submitted and waiting in the queue  
 2. `task running-on-backend`: submitted and running now (in skyblue backgroud)
 
 ![](image/gee_monkey_v0.1.3.png)
 
+## Updates
 
-## Updates  
+* 2019-09-17 (version 0.1.4)
+  -   add `rInv` and `ntask`
 
 * 2018-07-20   
-  1. `running-on-backend` task's background is set to skyblue to distinguish `submitted-to-backend` task.
-
+  -   `running-on-backend` task's background is set to skyblue to distinguish `submitted-to-backend` task.
 
 ## Installation
 
@@ -36,8 +45,6 @@ You also can submit tasks by your phone with `firefox` and `Tampermonkey`.
 
 ![](image/s2_gee_monkey.gif)
 
-## Donation 
+## Donation
 
-* Donate first then email to me ask for gee_monkey (kongdd.sysu at gmail.com)
-
-![pay](image/pay_kongdd_70.png)
+* [Donate](https://www.paypal.me/kongddsysu/10usd) first then email to me ask for gee_monkey (kongdd.sysu at gmail.com)
