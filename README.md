@@ -48,3 +48,6 @@ You also can submit tasks by your phone with `firefox` and `Tampermonkey`.
 ## Donation
 
 * [Donate](https://www.paypal.me/kongddsysu/10usd) first then email to me ask for gee_monkey (kongdd.sysu at gmail.com)
+
+PayPal有较高的手续费，微信支付宝捐赠请戳下面链接：
+https://github.com/kongdd/gee_monkey/blob/master/image/pay_kongdd_70.png
