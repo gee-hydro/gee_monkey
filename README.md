@@ -34,6 +34,9 @@ to be continue
 
 ## Updates
 
+* 2020-08-14 (version 0.1.5)
+  - fix user-box error
+
 * 2019-09-17 (version 0.1.4)
   -   add `rInv` and `ntask`
 
