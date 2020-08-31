@@ -1,8 +1,8 @@
 # gee_monkey
 
 
-> **gee_monkey is still alive, but not public free any more. The price is $10 USD.**    
-> _**[Pay](https://www.paypal.me/kongdd/10usd) first**_ then email to me ask for gee_monkey (kongdd.sysu at gmail.com)
+> **gee_monkey is still alive, but not public free any more. The price is $50 USD.**    
+> _**[Pay](https://www.paypal.me/kongdd/50usd) first**_ then email to me ask for gee_monkey (kongdd.sysu at gmail.com)
 
 
 Batch export Google Earth Engine (GEE) tasks with `Tampermonkey`.
@@ -90,5 +90,4 @@ You also can submit tasks by your phone with `firefox` and `Tampermonkey`.
 ![](image/s2_gee_monkey.gif)
 
 ## Payment
-PayPal有较高的手续费，微信支付宝捐赠请戳下面链接：
-https://github.com/kongdd/gee_monkey/blob/master/image/pay_kongdd_70.png
+PayPal有较高的手续费，微信支付宝支付请戳下面链接：
