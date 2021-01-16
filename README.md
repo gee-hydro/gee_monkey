@@ -1,5 +1,7 @@
 # gee_monkey
 
+> Fill this form https://forms.gle/dY9cDNJixrEbTnvb8, you will get the latest `gee_monkey`. 
+
 Batch export Google Earth Engine (GEE) tasks with `Tampermonkey`.
 
 + Tired of click GEE tasks run button in browser? 
