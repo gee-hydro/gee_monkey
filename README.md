@@ -31,6 +31,11 @@ to be continue
 
 ## Updates
 
+* 2021-09-22 (version 0.1.7)
+  - update for `task manager`
+  - `timeout` was replaced with `async`, which comes into effect for 
+    `confirm_all` and `runAll` in this version.
+
 * 2020-08-14 (version 0.1.5)
   - fix user-box error
 
@@ -40,7 +45,7 @@ to be continue
 * 2018-07-20   
   -   `running-on-backend` task's background is set to skyblue to distinguish `submitted-to-backend` task.
 
-## The free version
+## Free version
 https://gis.stackexchange.com/questions/290771/batch-task-execution-in-google-earth-engine
 ```javascript
 /**
@@ -57,24 +62,35 @@ https://gis.stackexchange.com/questions/290771/batch-task-execution-in-google-ea
  * (Firefox and Chrome are supported. Other Browsers I didn't test.)
  * 
  * @Author: 
- *  Dongdong Kong , 28 Aug' 2017 
- *      Sun Yat-sen University
+ *  Dongdong Kong, 28 Aug' 2017, Sun Yat-sen University
+ *  yzq.yang, 17 Sep' 2021
  */
 function runTaskList(){
-    var tasklist = document.getElementsByClassName('task local type-EXPORT_IMAGE awaiting-user-config');
-    for (var i = 0; i < tasklist.length; i++)
-            tasklist[i].getElementsByClassName('run-button')[0].click();
+    // var tasklist = document.getElementsByClassName('task local type-EXPORT_IMAGE awaiting-user-config');
+    // for (var i = 0; i < tasklist.length; i++)
+    //         tasklist[i].getElementsByClassName('run-button')[0].click();
+    $$('.run-button' ,$$('ee-task-pane')[0].shadowRoot).forEach(function(e) {
+         e.click();
+    })
 }
 
 function confirmAll() {
-    var ok = document.getElementsByClassName('goog-buttonset-default goog-buttonset-action');
-    for (var i = 0; i < ok.length; i++)
-        ok[i].click();
+    // var ok = document.getElementsByClassName('goog-buttonset-default goog-buttonset-action');
+    // for (var i = 0; i < ok.length; i++)
+    //     ok[i].click();
+    $$('ee-table-config-dialog, ee-image-config-dialog').forEach(function(e) {
+         var eeDialog = $$('ee-dialog', e.shadowRoot)[0]
+         var paperDialog = $$('paper-dialog', eeDialog.shadowRoot)[0]
+         $$('.ok-button', paperDialog)[0].click()
+    })
 }
 
 runTaskList();
 confirmAll();
 ```
+## Paid version
+
+![](image/gee_monkey_v0.1.7.gif)
 
 ## Installation
 
