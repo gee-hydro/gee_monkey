@@ -88,7 +88,7 @@ function confirmAll() {
 runTaskList();
 confirmAll();
 ```
-## Paid version
+## Pro version
 
 ![](image/gee_monkey_v0.1.7.gif)
 
